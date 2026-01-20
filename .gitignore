@@ -8,3 +8,25 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# Dependencies
+node_modules/
+__pycache__/
+*.py[cod]
+.venv/
+env/
+venv/
+
+# Data (Excluded due to size)
+flickr30k_data/
+features_flickr30k/
+
+# Model weights
+# Exclude general weights to prevent accidental large pushes
+*.h5
+*.pth
+*.pt
+model_weights/
+
+# Explicitly allow the custom model
+!backend/custom_caption_model.pth
