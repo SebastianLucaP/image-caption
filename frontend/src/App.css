@@ -144,7 +144,13 @@ button:focus {
   border: 2px solid #ccc;
   min-width: 250px;
   background-color: white;
+  color: #333;
   margin-bottom: 1rem;
+}
+
+.model-select option {
+  background-color: white;
+  color: #333;
 }
 
 .model-select:focus {
