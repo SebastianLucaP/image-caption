@@ -1,0 +1,26 @@
+# Dependencies
+node_modules/
+__pycache__/
+*.py[cod]
+.venv/
+env/
+venv/
+
+# Data
+flickr30k_data/
+features_flickr30k/
+*.h5
+*.pth
+*.pt
+model_weights/
+
+# IDE settings
+.vscode/
+.idea/
+.DS_Store
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
